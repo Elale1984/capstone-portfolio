@@ -1,0 +1,50 @@
+.contact-me-container {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.contact-me-header {
+    align-items: center;
+}
+
+.header-text {
+    margin-bottom: 0.5rem;
+    color: lightgrey;
+    font-size: 3rem;
+    text-shadow: black .2rem .1rem .5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contact-me-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+input.contact-me-form-control {
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.3rem 0.5rem;
+  padding: 5px;
+  border: 0.1rem solid chartreuse;
+  margin: 10px;
+  
+}
+
+textarea.contact-me-form-control {
+  resize: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.3rem 0.5rem;
+  padding: 5px;
+  border: 0.1rem solid chartreuse;
+}
+
+.contact-me-submit-button {
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.3rem 0.5rem;
+  padding: 5px;
+  background-color: rgba(251, 0, 255, 0.225);
+  border: 0.1rem solid black;
+}
