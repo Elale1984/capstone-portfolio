@@ -22,8 +22,8 @@ const Home = () => {
       </div>
       <div className="nav-container">
       <Link to='/overview' className="roomzio-nav">Overview</Link>
-        <div className="features-nav">Features</div>
-        <div className="contact-me-nav">Lets Talk</div>
+      <Link to='/features' className="roomzio-nav">Features</Link>
+      <Link to='/contact-me' className="roomzio-nav">Lets Talk</Link>
       </div>
     </div>
   );

@@ -35,12 +35,14 @@ body {
   margin-bottom: 0.5rem;
   font-size: 10rem;
   text-shadow: rgb(220, 125, 265) 1px 0 10px;
-  animation: pulsar 3s;
+  animation: pulsar ease-in-out 3s;
 }
 .catch-phrase {
   font-size: 1.5rem;
   color: whitesmoke;
   text-shadow: rgb(220, 125, 265) 1px 0 10px;
+  animation: pulsar ease-in-out 3s;
+
 }
 .nav-container {
   display: flex;
@@ -114,20 +116,20 @@ body {
   animation: tilt-shaking 0.3s forwards;
 }
 
-@keyframes pulsar: {
+@keyframes pulsar {
   0% {
     text-shadow: rgb(220, 125, 265)  1px 0 10px;
   }
   25% {
-    text-shadow: rgb(120, 23, 190) 2px 0 15px;
+    text-shadow: rgb(220, 125, 265) 2px 0 15px;
   }
   50% {
     text-shadow: rgb(190, 23, 106) 3px 0 20px;
   }
   75% {
-    text-shadow: rgb(120, 23, 190) 2px 0 15px;
+    text-shadow: rgb(220, 125, 265) 2px 0 15px;
   }
   100% {
-    text-shadow: rgb(220, 125, 265) 1px 0 10px;
+    text-shadow: rgrgb(220, 125, 265) 1px 0 10px;
   }
 }
