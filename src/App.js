@@ -3,7 +3,7 @@ import './App.css';
 import  Home  from './pages/home/Home'
 import Features from './pages/features/Features'
 import ContactMe from './pages/contact-me/ContactMe'
-import RoomzIO from './pages/roomz-io/RoomzIO';
+import RoomzIO from './pages/overview/Overview';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='/roomz-io' element={<RoomzIO/>}/>
+          <Route path='/overview' element={<RoomzIO/>}/>
           <Route path='/features' element={<Features />}/>
           <Route path='/contact-me' element={<ContactMe />}/>
         </Routes>

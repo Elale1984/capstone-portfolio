@@ -1,17 +1,30 @@
 import React from "react";
 import "./Home.css";
+import Calendar from "../../assets/images/CleaningSchedule.png";
+import Maintenance from "../../assets/images/MaintenanceTicketCard.png";
+import Date from "../../assets/images/Date.png";
+import  { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home-container">
       <div className="title-container">
+        <div className="roomzio-images">
+          <img className="date-img" src={Date} alt="calendar" />
+          <img className="calendar-img" src={Calendar} alt="calendar" />
+          <img className="maintenance-img" src={Maintenance} alt="calendar" />
+        </div>
         <p className="title">RoomzIO</p>
-        <p className="catch-phrase">
-          Precision bed management so you can focus on the more important
+        <h2 className="catch-phrase">
+          Precision bed management: So you can focus on the more important
           things.
-        </p>
+        </h2>
       </div>
-      <div className="nav-container"></div>
+      <div className="nav-container">
+      <Link to='/overview' className="roomzio-nav">Overview</Link>
+        <div className="features-nav">Features</div>
+        <div className="contact-me-nav">Lets Talk</div>
+      </div>
     </div>
   );
 };
