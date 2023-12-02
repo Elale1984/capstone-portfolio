@@ -1,11 +1,15 @@
+
 .contact-me-container {
     display: flex;
     height: 100vh;
-    
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-me-header {
-    align-items: center;
+  margin-bottom: .5rem;
 }
 
 .header-text {
@@ -18,18 +22,17 @@
 }
 
 .contact-me-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
 }
+
 input.contact-me-form-control {
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.5rem;
-  padding: 5px;
-  border: 0.1rem solid chartreuse;
-  margin: 10px;
+  padding: .5rem;
+  border: 0.1rem solid black;
+  margin-bottom: 1rem;
   
 }
 
@@ -37,14 +40,54 @@ textarea.contact-me-form-control {
   resize: none;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.5rem;
-  padding: 5px;
-  border: 0.1rem solid chartreuse;
+  padding: .5rem;
+  border: 0.1rem solid black;
+  margin-bottom: 1rem;
 }
 
 .contact-me-submit-button {
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.3rem 0.5rem;
-  padding: 5px;
+  padding: 0.6rem 1rem;
   background-color: rgba(251, 0, 255, 0.225);
-  border: 0.1rem solid black;
+  color: whitesmoke;
+  text-shadow: 0.1rem 0.2rem 0.4rem black;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  box-shadow: 0.2rem 0.3rem 0.4rem rgba(0, 0, 0, 0.527);
+  text-align: center;
+  width: 10rem;
+  align-self: end;
 }
+
+.contact-me-submit-button:hover,
+.contact-me-submit-button:focus {
+  animation: tilt-shaking 0.3s forwards; /* Add 'forwards' to keep the final state */
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+    background-color: rgba(251, 0, 255, 0.225);
+    text-shadow: 0.1rem 0.2rem 0.4rem black;
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    background-color: rgba(115, 0, 255, 0.225);
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    color: lightseagreen;
+    font-weight: bolder;
+  }
+}
+
+.contact-me-form-control:focus {
+  outline-color: chartreuse;
+}
+
