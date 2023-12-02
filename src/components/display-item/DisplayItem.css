@@ -1,0 +1,43 @@
+.display-item-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 99.1vw;
+}
+
+.display-item-text-section {
+    margin: 3rem 3rem;
+}
+.display-item-section-title {
+    margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    text-shadow: rgb(220, 125, 265) 1px 0 10px;
+
+
+}
+
+.display-item-section-blob {
+margin-left: 2rem;
+}
+
+.display-item-section-blob > p {
+    font-size: 20px; 
+    line-height: 1.5;
+    letter-spacing: .08rem; 
+    color: lightgrey;
+    font-weight: bolder;
+    text-shadow: black .1rem .2rem .4rem;
+    text-indent: 20px;
+    margin: 4rem;
+}
+
+
+.display-item-section-img {
+margin-top: 5rem;
+
+}
+
+.display-item-section-img > img {
+  box-shadow: 1rem 1rem 3rem black;
+  height: 50%;
+}

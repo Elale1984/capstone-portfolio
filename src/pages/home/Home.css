@@ -44,78 +44,7 @@ body {
   animation: pulsar ease-in-out 3s;
 
 }
-.nav-container {
-  display: flex;
-  width: 25rem;
-  justify-content: space-evenly;
-}
 
-.roomzio-nav {
-  padding: 0.6rem 1rem;
-  background-color: rgba(251, 0, 255, 0.225);
-  color: whitesmoke;
-  text-shadow: 0.1rem 0.2rem 0.4rem black;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.3rem 0.4rem black;
-  text-decoration: none;
-}
-
-.features-nav {
-  padding: 0.6rem 1rem;
-  background-color: rgba(251, 0, 255, 0.225);
-  color: whitesmoke;
-  text-shadow: 0.1rem 0.2rem 0.4rem black;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.3rem 0.4rem black;
-}
-
-.contact-me-nav {
-  padding: 0.6rem 1rem;
-  color: whitesmoke;
-  text-shadow: 0.1rem 0.2rem 0.4rem black;
-  background-color: rgba(251, 0, 255, 0.225);
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.3rem 0.4rem black;
-}
-
-@keyframes tilt-shaking {
-  0% {
-    transform: rotate(0deg);
-    background-color: rgba(251, 0, 255, 0.225);
-    text-shadow: 0.1rem 0.2rem 0.4rem black;
-  }
-  25% {
-    transform: rotate(5deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(0deg);
-    background-color: rgba(115, 0, 255, 0.225);
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
-    color: lightseagreen;
-    font-weight: bolder;
-  }
-}
-
-.roomzio-nav:hover,
-.roomzio-nav:focus {
-  animation: tilt-shaking 0.3s forwards; /* Add 'forwards' to keep the final state */
-}
-
-.features-nav:hover,
-.features-nav:focus {
-  animation: tilt-shaking 0.3s forwards;
-}
-
-.contact-me-nav:hover,
-.contact-me-nav:focus {
-  animation: tilt-shaking 0.3s forwards;
-}
 
 @keyframes pulsar {
   0% {
@@ -134,3 +63,5 @@ body {
     text-shadow: rgb(220, 125, 265) 1px 0 10px;
   }
 }
+
+

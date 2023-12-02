@@ -3,7 +3,7 @@ import "./Home.css";
 import Calendar from "../../assets/images/CleaningSchedule.png";
 import Maintenance from "../../assets/images/MaintenanceTicketCard.png";
 import Date from "../../assets/images/Date.png";
-import  { Link } from "react-router-dom";
+import NavContainer from "../../components/nav/NavContainer";
 
 const Home = () => {
   return (
@@ -20,11 +20,10 @@ const Home = () => {
           things.
         </h2>
       </div>
-      <div className="nav-container">
-      <Link to='/overview' className="roomzio-nav">Overview</Link>
-      <Link to='/features' className="roomzio-nav">Features</Link>
-      <Link to='/contact-me' className="roomzio-nav">Lets Talk</Link>
-      </div>
+      <NavContainer
+        containerClass={"nav-container"}
+        linkClass={"roomzio-nav"}
+      />
     </div>
   );
 };
