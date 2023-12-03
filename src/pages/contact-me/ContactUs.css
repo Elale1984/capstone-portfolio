@@ -1,24 +1,19 @@
-
-.contact-me-container {
-    display: flex;
-    height: 100vh;
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contact-me-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem;
 }
 
 .contact-me-header {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.header-text {
-    margin-bottom: 0.5rem;
-    color: lightgrey;
-    font-size: 3rem;
-    text-shadow: black .2rem .1rem .5rem;
-    font-weight: bolder;
-    text-align: center;
+.contact-me-header > p {
+  margin-bottom: 0.5rem;
+  font-size: 5rem;
+  text-shadow: rgb(220, 125, 265) 1px 0 10px;
 }
 
 .contact-me-form {
@@ -30,17 +25,16 @@
 input.contact-me-form-control {
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 0.1rem solid black;
   margin-bottom: 1rem;
-  
 }
 
 textarea.contact-me-form-control {
   resize: none;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 0.1rem solid black;
   margin-bottom: 1rem;
 }
@@ -88,6 +82,5 @@ textarea.contact-me-form-control {
 }
 
 .contact-me-form-control:focus {
-  outline-color: chartreuse;
+  outline-color: rgba(115, 0, 255, 0.833);
 }
-

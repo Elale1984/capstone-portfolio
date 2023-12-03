@@ -13,6 +13,7 @@
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.4rem black;
   text-decoration: none;
+  text-align: center;
 }
 
 @keyframes tilt-shaking {
@@ -51,7 +52,8 @@
 }
 
 .top-roomzio-nav {
-  padding: 0.6rem 1rem;
+  padding: 0.6rem ;
+  width: 4rem;
   margin-inline: .5rem;
   margin-top: 2rem;
   background-color: rgba(251, 0, 255, 0.225);
@@ -60,5 +62,6 @@
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.3rem 0.4rem black;
   text-decoration: none;
+  text-align: center;
 
 }

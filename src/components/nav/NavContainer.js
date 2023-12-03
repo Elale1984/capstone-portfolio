@@ -1,10 +1,17 @@
 import React from "react";
 import "./NavContainer.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-const NavContainer = ({containerClass, linkClass}) => {
+const NavContainer = ({ containerClass, linkClass }) => {
+  const { pathname } = useLocation();
+
   return (
     <div className={containerClass}>
+      {pathname !== "/" && (
+        <Link to="/" className={linkClass}>
+          Home
+        </Link>
+      )}
       <Link to="/overview" className={linkClass}>
         Overview
       </Link>
