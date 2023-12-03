@@ -5,7 +5,7 @@ import RoomzIOHeader from "../../components/roomzio-header/RoomzIOHeader.js";
 
 export const ContactUs = () => {
   const form = useRef();
-
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -19,6 +19,14 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          
+          Array.from(form.current.elements).forEach((element) => {
+            
+            if(element.type !== "submit") {
+              element.value =""
+            }
+            
+          });
         },
         (error) => {
           console.log(error.text);
