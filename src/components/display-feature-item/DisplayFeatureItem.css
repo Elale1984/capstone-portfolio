@@ -1,0 +1,29 @@
+.display-feature-item-container {
+  display: flex;
+  margin: 5rem;
+}
+.display-item-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;
+
+}
+.container-image {
+}
+
+.display-title {
+    margin: 1rem 0 0 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    text-shadow: rgb(220, 125, 265) 1px 0 10px;
+}
+
+.display-blob > p {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.08rem;
+  color: lightgrey;
+  font-weight: bolder;
+  text-shadow: black 0.1rem 0.2rem 0.4rem;
+  margin-left: 4rem;
+}

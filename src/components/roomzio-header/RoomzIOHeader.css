@@ -1,0 +1,13 @@
+.roomz-io-header-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 1rem black;
+  }
+  .roomz-io-header-contents {
+    display: flex;
+    align-items: center;
+  }
+  
+  .roomz-io-title {
+    scale: 60%;
+    margin: -2rem -6.5rem ;
+  }

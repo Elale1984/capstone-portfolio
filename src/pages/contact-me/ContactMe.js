@@ -58,7 +58,7 @@ export const ContactMe = () => {
         <input
           type="submit"
           className="contact-me-submit-button"
-          value="Message Me"
+          value="Send"
         />
       </form>
     </div>
