@@ -1,12 +1,10 @@
 .nav-container {
   display: flex;
-  width: 25rem;
   justify-content: space-evenly;
 }
 
 .roomzio-nav {
   padding: 0.6rem 1rem;
-  margin-bottom: 0.8rem;
   background-color: rgba(251, 0, 255, 0.225);
   color: whitesmoke;
   text-shadow: 0.1rem 0.2rem 0.4rem black;
@@ -49,13 +47,12 @@
 
 .top-nav-container {
   display: flex;
+  margin-left: 2rem;
 }
 
 .top-roomzio-nav {
   padding: 0.6rem ;
-  width: 4rem;
-  margin-inline: .5rem;
-  margin-top: 2rem;
+  margin: .4rem;
   background-color: rgba(251, 0, 255, 0.225);
   color: whitesmoke;
   text-shadow: 0.1rem 0.2rem 0.4rem black;
@@ -63,5 +60,43 @@
   box-shadow: 0.2rem 0.3rem 0.4rem black;
   text-decoration: none;
   text-align: center;
+  font-size: 20px;
 
+}
+
+.top-nav-small-container {
+  align-self: left;
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .top-roomzio-nav {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .top-roomzio-nav {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 732px) {
+  .top-nav-container {
+    display: flex;
+    margin-left: 2rem;
+  }
+
+}
+
+@media (max-width: 731px) {
+  .top-nav-container {
+    display: none;
+  }
+
+  .top-nav-small-container {
+    display: flex;
+    color: white;
+  }
 }

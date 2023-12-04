@@ -1,40 +1,68 @@
 .display-item-section {
-  margin-top: 2rem;
   display: flex;
-  width: 99.1vw;
+  margin: 0 auto;
+
 }
 
 .display-item-text-section {
-  margin: 3rem 3rem;
+  max-width: 40%;
+  flex-direction: column;
+  padding: 2em;
 }
 .display-item-section-title {
-  margin-bottom: 0.5rem;
+  max-width: 100%;
   font-size: 3.5rem;
   text-shadow: rgb(220, 125, 265) 1px 0 10px;
 }
 
 .display-item-section-blob {
-  margin-left: 2rem;
+  max-width: 100%;
+  padding-inline: 2em;
 }
 
 .display-item-section-blob > p {
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.08rem;
+  font-size: 1.25rem;
+  
   color: lightgrey;
   font-weight: bolder;
   text-shadow: black 0.1rem 0.2rem 0.4rem;
-  text-indent: 20px;
-  margin-left: 4rem;
 }
 
 .display-item-section-img {
-    display: flex;
-  margin-top: 2rem;
-  size: 50%;
+  padding: 2rem;
+  max-width: 50%;
 }
 
 .display-item-section-img > img {
   box-shadow: 1rem 1rem 3rem black;
-  scale: .7;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+  .display-item-section-title {
+    font-size: 3rem;
+  }
+  .display-item-section-blob > p {
+    font-size: 1.2;
+
+  }
+}
+@media screen and (max-width: 1200px) {
+  .display-item-section-title {
+    font-size: 2.5rem;
+  }
+  .display-item-section-blob > p {
+    font-size: 1rem;
+
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .display-item-section-title {
+    font-size: 2rem;
+  }
+  .display-item-section-blob > p {
+    font-size: .9rem;
+
+  }
 }

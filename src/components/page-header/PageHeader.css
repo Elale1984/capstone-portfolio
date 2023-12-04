@@ -1,40 +1,42 @@
-
 .page-header-label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8rem;
-  }
-  .page-header-label-text {
-    margin-bottom: 0.5rem;
-    font-size: 5rem;
-    text-shadow: rgb(220, 125, 265) 1px 0 10px;
-  }
-  
-  .page-header-blob {
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.08rem;
-    color: lightgrey;
-    font-weight: bolder;
-    text-shadow: rgb(73, 0, 128) 0.1rem 0.2rem 0.4rem;
-    text-indent: 20px;
-    padding: 1.5rem;
-    margin-inline: 20rem;
-  }
-  
-  .indicator-label {
-    margin: 5rem 0 -3rem 5rem;
-    font-size: 50px;
-    line-height: 1.5;
-    letter-spacing: 0.08rem;
-    color: lightgrey;
-    font-weight: bolder;
-    text-shadow: rgb(73, 0, 128) 0.1rem 0.2rem 0.4rem;
-    text-align: center;
+display: flex;
+
 }
-  .separator {
-    margin: 5rem;
-    border: 1px solid rgba(245, 245, 245, 0.248);
-    box-shadow: .1rem .2rem 1rem black;
-  }
+.page-header-label-text {
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 5rem;
+  text-shadow: rgb(220, 125, 265) 1px 0 10px;
+}
+
+.page-header-blob {
+  font-size: 24px;
+  color: lightgrey;
+  font-weight: bolder;
+  text-shadow: rgb(73, 0, 128) 0.1rem 0.2rem 0.4rem;
+  padding: 2rem;
+}
+
+.indicator-label {
+  font-size: 50px;
+  color: lightgrey;
+  font-weight: bolder;
+  text-shadow: rgb(73, 0, 128) 0.1rem 0.2rem 0.4rem;
+  text-align: center;
+}
+.separator {
+  border: 1px solid rgba(245, 245, 245, 0.248);
+  box-shadow: 0.1rem 0.2rem 1rem black;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 950px) {
+
+}

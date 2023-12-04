@@ -5,9 +5,20 @@
   .roomz-io-header-contents {
     display: flex;
     align-items: center;
+    padding: 0 3rem;
+
   }
   
   .roomz-io-title {
-    scale: 60%;
-    margin: -2rem -6.5rem ;
+    font-size: 5rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .roomz-io-title {
+      font-size: 4rem;
+    }
+
+  }
+  @media screen and (max-width: 950px) {
+
   }
